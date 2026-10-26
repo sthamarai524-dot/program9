@@ -4,15 +4,31 @@
 
 <head>
 
-<title>CSS Selectors</title>
+<title>Selectors</title>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="styles/normalize.css">
 
 <style>
 
-p { color: blue; }
+*{margin: .5em 1em;}
 
-#heading { color: red; }
+main {
 
-.note { background-color: yellow; }
+border: 2px solid black;
+
+padding: 1em; }
+
+h1 {font-family: Arial, sans-serif; }
+
+p {margin-left: 3em; }
+
+#copyright {font-size: 80%; }
+
+blue { color: blue; }
+
+right {text-align: right; }
 
 </style>
 
@@ -20,13 +36,21 @@ p { color: blue; }
 
 <body>
 
-<h1 id="heading">CSS Selectors</h1>
+<main>
 
-<p>This is an element selector.</p>
+<h1>This Season's Speaker Lineup</h1>
 
-<p class="note">This is a class
+<p class="blue">October: Jeffrey Toobin</p>
 
-selector.</p>
+<p class="blue">November: Andrew Ross Sorkin</p>
+
+</main>
+
+<footer>
+
+<p id="copyright" class="blue right">Copyright 2015</p>
+
+</footer>
 
 </body>
 
